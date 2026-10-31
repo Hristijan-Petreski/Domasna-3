@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Формула 1 Игра</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Формула 1</h1>
+    
+    <div class="kontrola">
+        <button id="kopceKrug" onclick="sledenKrug()">Старт на трка (Круг 1)</button>
+        <h2 id="krugInfo">Круг: 0 / 10</h2>
+    </div>
+
+    <div id="poraki" class="poraki">Добродојдовте! Притиснете Старт за да започне трката.</div>
+
+    <table id="tabelaVozaci">
+        <thead>
+            <tr>
+                <th>Поз.</th>
+                <th>Возач</th>
+                <th>Тим</th>
+                <th>Вкупно Време (сек)</th>
+                <th>Гуми</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaTelo">
+            
+        </tbody>
+    </table>
+
+    <script src="script.js"></script> 
+</body>
+</html>
